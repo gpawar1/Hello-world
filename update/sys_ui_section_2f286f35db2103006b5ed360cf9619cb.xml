@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Log" section_id="2f286f35db2103006b5ed360cf9619cb" sys_domain="global" table="x_162129_hello_wor_needit" version="3" view="User">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-02 19:11:49</sys_created_on>
+            <sys_id>3f286f35db2103006b5ed360cf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_162129_hello_wor_needit" sys_domain="global" view="e328eb35db2103006b5ed360cf961973">2f286f35db2103006b5ed360cf9619cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-02 19:11:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-02 19:11:49</sys_created_on>
+            <sys_id>bf286f35db2103006b5ed360cf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_162129_hello_wor_needit" sys_domain="global" view="e328eb35db2103006b5ed360cf961973">2f286f35db2103006b5ed360cf9619cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-02 19:11:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-02 19:11:49</sys_created_on>
+            <sys_id>33286f35db2103006b5ed360cf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Log" display_value="Log" name="x_162129_hello_wor_needit" sys_domain="global" view="e328eb35db2103006b5ed360cf961973">2f286f35db2103006b5ed360cf9619cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-02 19:11:49</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Log</caption>
+            <header>false</header>
+            <name>x_162129_hello_wor_needit</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-02 19:11:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f286f35db2103006b5ed360cf9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hello world" source="x_162129_hello_wor">7ead20bddb5103006b5ed360cf96199a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hello world">7ead20bddb5103006b5ed360cf96199a</sys_scope>
+            <sys_update_name>sys_ui_section_2f286f35db2103006b5ed360cf9619cb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-02 19:11:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="User" name="User">e328eb35db2103006b5ed360cf961973</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
