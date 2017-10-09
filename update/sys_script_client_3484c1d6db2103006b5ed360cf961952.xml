@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Test for Description</description>
+        <field>active</field>
+        <global>false</global>
+        <messages>Test for message</messages>
+        <name>NeedIt onSubmit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Generate an alert to thank the user for submitting a record
+	alert("Thank you for submitting a NeedIt request.");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-03 20:36:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3484c1d6db2103006b5ed360cf961952</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt onSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello world" source="x_162129_hello_wor">7ead20bddb5103006b5ed360cf96199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello world">7ead20bddb5103006b5ed360cf96199a</sys_scope>
+        <sys_update_name>sys_script_client_3484c1d6db2103006b5ed360cf961952</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-04 19:09:05</sys_updated_on>
+        <table>x_162129_hello_wor_needit</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view>User</view>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Practice Debugging File</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {}
+	try{
+		var x = 7;
+		jslog("This message is from jslog().");
+		jslog("The value of x = " + x);
+		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The currently logged in user is " + g_user.getFullName() + ".");
+
+
+ 		g_form.setValue('short_description',g_form.getValue('short_description') + " -  Updated field value");
+	}
+	catch(err){
+		jslog('A JavaScript runtime error occurred: ' + err.message);
+   }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-05 19:58:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d3e8b36db2103006b5ed360cf9619ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt Practice Debugging File</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello world" source="x_162129_hello_wor">7ead20bddb5103006b5ed360cf96199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello world">7ead20bddb5103006b5ed360cf96199a</sys_scope>
+        <sys_update_name>sys_script_client_9d3e8b36db2103006b5ed360cf9619ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-05 20:15:09</sys_updated_on>
+        <table>x_162129_hello_wor_needit</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
